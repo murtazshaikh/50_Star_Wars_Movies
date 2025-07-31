@@ -56,8 +56,8 @@ Handled with Redux async lifecycle:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/star-wars-ui.git
-cd star-wars-ui
+git clone https://github.com/murtazshaikh/50_Star_Wars_Movies.git
+cd 50_Star_Wars_Movies
 
 # Install dependencies
 npm install
