@@ -1,0 +1,72 @@
+.movie-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.movie-table thead {
+  background-color: #2a2a2a;
+}
+
+.movie-table th,
+.movie-table td {
+  padding: 1rem;
+
+  text-align: left;
+  color: #f1f1f1;
+}
+
+.movie-table th {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.movie-table tbody tr {
+  border-top: 1px solid #333;
+  transition: background-color 0.2s ease;
+}
+
+.movie-table tbody tr:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 2rem;
+
+  text-align: center;
+  color: #fff;
+  background-color: #121212;
+}
+
+h1 {
+  margin-bottom: 2rem;
+
+  font-size: 2.5rem;
+}
+
+th {
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+}
+
+th:hover {
+  background-color: #2e2e2e;
+}
+
+.sort-icon {
+  width: 1rem;
+
+  display: inline-block;
+  text-align: center;
+}
